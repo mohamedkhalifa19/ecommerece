@@ -1,0 +1,6 @@
+img {
+  width: 100% !important;
+  object-fit: cover;
+  height: 75vh;
+  background-position: center;
+}

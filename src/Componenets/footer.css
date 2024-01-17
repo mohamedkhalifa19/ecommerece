@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1.5rem 0;
+}
+.footer ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.footer .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.footer .box h2 {
+  font-size: 2.2rem;
+}
+
+.footer ul li {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: #deee;
+  transition: all ease 0.62s;
+}
+
+.footer ul li:hover {
+  transform: translateX(-10px) scale(1.1);
+  color: #fff;
+}
